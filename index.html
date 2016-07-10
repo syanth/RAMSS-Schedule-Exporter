@@ -1,0 +1,30 @@
+<html>
+<head>
+	<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+	<script src="exporter.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400, 700">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>RAMSS Schedule Exporter</title>
+</head>
+<body>
+	<div class="container">
+		<h1>RAMSS Schedule Exporter</h1>
+		<p>This is an unoffical tool that helps Ryerson University students easily export their class schedule into the iCalendar (.ics) format compatible with Apple Calendar, Google Calendar, Outlook, and most other calendar applications.</p>
+		<p>This tool was created by <a href="http://syanth.github.io">Syanth Paramananthan</a>. You can view the source code on Github.</p>
+		<p>Note: The calendar will have classes scheduled on the day before they actually start. Manually delete those.</p>
+		<h2>How to:</h2>
+		<ul>
+			<li>1. Log onto <a href="https://my.ryerson.ca">my.ryerson.ca</a> and open RAMSS</li>
+			<li>2. Go to Self Service --> Enrollment --> My Class Schedule</li>
+			<li>3. Select which semester you want to export</li>
+			<li>4. Select the content starting from the first class to the last class</li>
+			<li>5. Copy paste your schedule here:</li>
+			<li>6. Click "Download Calendar"</li>
+		</ul>
+		<div id='txtWrap'>
+			<textarea id="txt" rows="10" cols="50"></textarea>
+		</div>
+		<p><a href="" id="link" download="calendar.ics">Download Calendar</a><p>
+	</div>
+</body>
+</html>
